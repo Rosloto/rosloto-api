@@ -1,0 +1,16 @@
+openapi: 3.0.3
+
+info:
+  title: Rosloto API
+  version: 1.0.0
+
+servers:
+  - url: https://api.rosloto.net/v1
+
+paths:
+  /wallet/balance:
+    get:
+      summary: Get player balance
+      responses:
+        "200":
+          description: Success
